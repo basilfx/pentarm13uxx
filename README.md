@@ -4,11 +4,11 @@
 pentarm13uxx
 ============
 
-a small template project (blinking led) for the new lpc1347 (successor of the popular lpc1343)
+A small template project (blinking led) for the new lpc1347 (successor of the popular lpc1343).
 
-including Makefile, linker-script and cmsis and microcontroler header files
+Including Makefile, linker-script and cmsis and microcontroler header files.
 
-also includes eagle files for a small breaboardable eval-board
+Also includes eagle files for a small breaboardable eval-board.
 
 
 - - -
@@ -49,7 +49,7 @@ price of the eval board: ~$15
 * X2,X3 : Pin-Header 10 Pin
 * X4 : Pin Header 2 Pin
 * X5 : Pin Header 4 Pin
-* LED1,LED2 : Smd LED 0805
+* LED1 : RGB LED PLCC4 common annode
 * SW1,SW2,RST : MCTAEF-25N (farnell:1605484)
 
 - - -
@@ -61,5 +61,7 @@ user manual : http://www.nxp.com/documents/user_manual/UM10524.pdf
 toolchain   : https://launchpad.net/gcc-arm-embedded
 
 - - -   
-![pcb](https://raw.github.com/sebseb7/pentarm13uxx/master/doc/pcb.jpg)
-![brd](https://raw.github.com/sebseb7/pentarm13uxx/master/doc/brd.png)
+![brd](https://raw.github.com/basilfx/pentarm13uxx/master/doc/brd.png)
+Board top render
+
+![pcb](https://raw.github.com/basilfx/pentarm13uxx/master/doc/pcb.jpg) Completed boards, photo by [Dirk Soeteman](http://www.dirksoeteman.nl/)
